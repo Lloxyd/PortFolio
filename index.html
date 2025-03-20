@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+<body>
+    </body><nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Lloyd</span>
+            </div>
+            <div class="links">
+                <a href="#home" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
+                <a href="#about" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a>
+                <a href="#skills" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
+                <a href="#services" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Services</a>
+                <a href="#contact" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="toggleDropdown()"></i>
+        </div>
+    
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
+                <a href="#about" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a>
+                <a href="#skills" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
+                <a href="#services" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Services</a>
+                <a href="#contact" class="nav-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="closeDropdown()"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <section>
+        <div class = "main-container">
+            <div class = "image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src = "Formal.jpeg" alt = "">
+            </div>
+            <div class = "content">
+                <h1 data-aos = "fade-left" data-aos-duration = "1500" data-aos-delay="700">
+                    Hey I'm
+                    <span>Lloyd </span>
+                </h1>
+                <div class = "typewriter" data-aos = "fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a
+                    <span class = "typewriter-text"></span>
+                    <label for = ""></label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Computer Science student, passionate about AI, robotics, and embedded systems. From designing autonomous robots to building AI-driven web apps, I thrive on solving complex problems and turning ideas into reality.</p>
+                <div class = "social-links">
+                    <a href = "#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class = "fa-brands fa-github"></i>
+                        </a>
+
+                    <a href = "#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class = "fa-brands fa-linkedin"></i>
+                    </a>
+                    <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1600">
+                        <button onclick="scrollToProjects()">Projects</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class = "about" id = "about">
+        <div class = "content">
+            <div class = "title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class = "about-details">
+                <div class = "left">
+                    <img src = Formal.jpeg alt = ""/>
+                </div>
+                <div class = "right">
+                    <div class = "topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Innovating is my Passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">I'm a Computer Science student, passionate about AI, robotics, and embedded systems. From designing autonomous robots to building AI-driven web apps, I thrive on solving complex problems and turning ideas into reality.</p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <a href="LlResume.pdf" download="Lloyd_Musa_Resume.pdf">
+                            <button>View CV</button>
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <section class = "skills" id = "skills">
+            <div class = "content">
+                <div class = "title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+                <div class = "skills-details">
+                    <div class = "text">
+                        <div class = "topic"data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                            Skills Reflects Our Knowledge
+                        </div>
+                        <p data-aos = "fade-right" data-aos-duration="1200" data-aos-delay="400">I'm a Computer Science student, passionate about AI, robotics, and embedded systems. From designing autonomous robots to building AI-driven web apps, I thrive on solving complex problems and turning ideas into reality.</p>
+                        <div class = "experience">
+                            <div class = "num">5</div>
+                            <div class = "exp">
+                                Years Of <br/>
+                                Experience
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "boxes">
+                       <div class = "box">
+                        <div class = "topic" data-aos = "fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                        <div class =  "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                        </div>
+                        <div class = "box">
+                            <div class = "topic" data-aos = "fade-right" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                            <div class = "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                        </div>
+                        <div class = "box">
+                            <div class = "topic" data-aos = "fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+                            <div class = "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">80%</div>
+                    </div>
+                    <div class = "box">
+                        <div class = "topic" data-aos = "fade-right" data-aos-duration="1200" data-aos-delay="450">React</div>
+                        <div class = "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+                <div class="boxes">
+                    <div class="box"  data-aos = "fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="topic">Web Development</div>
+                        <p>I specialize in web development, building dynamic and AI-driven applications with HTML, CSS, JavaScript, and React.js. From optimizing user experiences to integrating machine learning for smarter interactions, I create intuitive, high-performance web solutions that solve real-world problems.</p>
+                    </div>
+                    <div class="box" data-aos = "fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="topic">UI/UX Design</div>
+                        <p> focus on creating intuitive and user-friendly interfaces, combining functionality with clean, modern design. With experience in HTML, CSS, and React.js, I craft seamless user experiences that prioritize accessibility, efficiency, and engagement. My approach blends aesthetics with usability to deliver impactful digital interactions.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-camera-retro"></i>
+                        </div> 
+                        <div class="topic">Photography</div>
+                        <p>I have a keen eye for capturing moments that tell a story, blending composition, lighting, and perspective to create visually compelling images. Whether it's landscape, portrait, or event photography, I strive to evoke emotion and bring scenes to life through my lens.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-tablet-alt"></i>
+                        </div>
+                        <div class="topic">Apps Development</div>
+                        <p>I design applications with a strong focus on functionality, scalability, and user experience. Whether developing AI-powered web apps or embedded systems, I ensure seamless interactions and efficient performance. My approach combines intuitive UI/UX with robust backend architecture to create impactful and user-centric applications</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="topic">Accounting & QuickBooks</div>
+                        <p>
+                            I have a strong foundation in <strong>accounting principles</strong> and <strong>financial analysis</strong>, leveraging my technical expertise to streamline financial workflows. 
+                            My experience with <strong>QuickBooks</strong> allows me to efficiently manage <strong>accounts payable/receivable</strong>, generate <strong>financial reports</strong>, and automate <strong>reconciliation processes</strong>. 
+                            I specialize in <strong>optimizing financial tracking systems</strong>, reducing errors, and improving decision-making through <strong>data-driven insights</strong>.
+                        </p>                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="topic">Video Editing</div>
+                        <p>
+                            I have experience in video editing and content creation using Canva and CapCut, allowing me to produce high-quality, engaging visuals for various platforms. 
+                            My expertise includes trimming, transitions, effects, and audio synchronization, ensuring polished and professional edits that enhance storytelling and brand presence.
+                        </p>                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Projects</span></div>
+                <div class="boxes">
+                    <!-- BulletBot Project -->
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="project-img">
+                            <img src="BulletBot.jpeg" alt="BulletBot">
+                        </div>
+                        <div class="topic">BulletBot</div>
+                        <p>A combat robot designed for precise motor control and autonomous navigation.</p>
+                        <button class="view-btn" data-link="https://www.linkedin.com/feed/update/urn:li:activity:7301833958990737409/">View</button>
+                    </div>
+        
+                    <!-- FoodBridge Project -->
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                        <div class="project-img">
+                            <img src="Foodbridge.jpeg" alt="FoodBridge">
+                        </div>
+                        <div class="topic">FoodBridge</div>
+                        <p>AI-powered food matching system connecting donors with shelters in real-time.</p>
+                        <button class="view-btn" data-link="https://github.com/Lloxyd/HackFoodDonor">View</button>
+                    </div>
+        
+                    <!-- Cautious Cuisine -->
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <div class="project-img">
+                            <img src="Cautious Cuisine.jpeg" alt="Cautious Cuisine">
+                        </div>
+                        <div class="topic">Cautious Cuisine</div>
+                        <p>AI-driven food recommendation platform considering multiple dietary constraints.</p>
+                        <button class="view-btn" data-link="https://github.com/Lloxyd/Cautious-Cuisine">View</button>
+                    </div>
+        
+                    <!-- Rock Paper Scissors AI -->
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="project-img">
+                            <img src="Rps.jpeg" alt="Rock Paper Scissors">
+                        </div>
+                        <div class="topic">Rock Paper Scissors AI</div>
+                        <p>An adaptive AI opponent that learns player behavior patterns.</p>
+                        <button class="view-btn" data-link="https://github.com/Lloxyd/Rock-paper-scissors">View</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+<section class = "contact" id = "contact">
+    <div class = "content">
+        <div class = "title" data-aos = "fade-up" data-aos-duration="1500">
+            <span> Contact Me</span>
+            </div>
+            <div class = "text">
+             <div class = "topic" data-aos = "fade-right" data-aos-duration="1500" data-aos-delay="200"> Have any Projects?</div>
+             <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                <button onclick="openContactForm()">Let's Chat</button>
+            </div>            
+            </div>
+            </div>
+</section>
+
+
+
+
+<footer>
+    <div class = "text">
+        <span>Created By Lloyd</span>
+    </div>
+</footer>
+<script src = "https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({offset:0});
+</script>
+<script src = "script.js"></script>
+
+<div id="contact-form-overlay">
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <button type="button" onclick="closeContactForm()">Close</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
