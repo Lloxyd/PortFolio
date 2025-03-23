@@ -849,23 +849,3 @@ html {
     }
 }
 
-@media (max-width: 768px) {
-  .main-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .main-container .image {
-    height: auto;
-    width: 90%;
-    max-width: 400px;
-    margin-bottom: 20px;
-  }
-
-  .main-container .content {
-    width: 100%;
-    padding: 10px;
-  }
-}
-
