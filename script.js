@@ -38,13 +38,20 @@ function typeEffect() {
 }
 
 function toggleDropdown() {
-    const dropdown = document.querySelector(".dropdown");
-    dropdown.classList.toggle("show"); 
+    document.querySelector('.dropdown').classList.add('show');
 }
 
 function closeDropdown() {
-    document.querySelector(".dropdown").classList.remove("show");
+    document.querySelector('.dropdown').classList.remove('show');
 }
+
+let dropdown = document.querySelector('.dropdown');
+let toggleBtn = document.querySelector('.hamburg');
+
+toggleBtn.addEventListener('click', () => {
+    dropdown.classList.toggle('show');
+});
+
 
 function smoothScrollTo(sectionId) {
     const targetElement = document.getElementById(sectionId);
@@ -127,3 +134,4 @@ function setupEventListeners() {
     window.openContactForm = () => document.getElementById("contact-form-overlay").style.display = "flex";
     window.closeContactForm = () => document.getElementById("contact-form-overlay").style.display = "none";
 }
+
