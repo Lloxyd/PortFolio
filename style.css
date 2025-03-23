@@ -186,7 +186,7 @@ nav {
 
     .content .typewriter {
         font-size: clamp(2rem, 2rem + 5vw, 4rem);
-        font-weight: 600;
+        font-weight: 550;
         white-space: nowrap; 
         overflow: visible;
         text-overflow: unset;
