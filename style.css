@@ -184,9 +184,12 @@ nav {
         text-shadow: 0 0 10px #b74b4b;
     }
 
-    .content .typewriter{
+    .content .typewriter {
         font-size: clamp(2rem, 2rem + 5vw, 4rem);
         font-weight: 600;
+        white-space: nowrap; 
+        overflow: visible;
+        text-overflow: unset;
     }
 
     .content .typewriter-text{
