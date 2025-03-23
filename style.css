@@ -841,3 +841,10 @@ html {
     color: white;
     margin-top: 10px;
 }
+
+@media (max-width: 600px) {
+    .main-container .image {
+        width: 80vw;
+        height: auto;
+    }
+}
