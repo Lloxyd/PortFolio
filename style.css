@@ -140,16 +140,13 @@ nav {
           align-items: center;
         }
 
-      .main-container .image {
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    max-height: 80vh;
-    border-radius: 100%;
-    overflow: hidden;
-    box-shadow: 0 0 50px #b74b4b;
-}
-
+   .main-container .image{
+            width: 500px;
+            height: 80vh;
+            border-radius: 100%;
+            overflow: hidden;
+            box-shadow: 0 0 50px #b74b4b;
+            }
 
             .main-container .image img{
                 width: 100%;
