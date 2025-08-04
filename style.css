@@ -922,7 +922,12 @@ html {
     line-height: 1.6;
   }
 
-.goals-text {
+.goals {
+  color: white;
+}
+
+.goals .box p,
+.goals .box .topic {
   color: white;
 }
 
