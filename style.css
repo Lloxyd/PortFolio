@@ -140,7 +140,7 @@ nav {
           align-items: center;
         }
 
-   .main-container .image{
+        .main-container .image{
             width: 500px;
             height: 80vh;
             border-radius: 100%;
@@ -184,14 +184,14 @@ nav {
         text-shadow: 0 0 10px #b74b4b;
     }
 
-   .content .typewriter {
+    .content .typewriter {
         font-size: clamp(2rem, 2rem + 5vw, 4rem);
         font-weight: 600;
         white-space: nowrap; 
         overflow: visible;
         text-overflow: unset;
     }
-
+    
     .content .typewriter-text{
         color: #b74b4b;
         text-shadow: 0 0 10 px #b74b4b;
@@ -852,29 +852,6 @@ html {
     }
 }
 
-@media (max-width: 768px) {
-  .projects .boxes {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .projects .box {
-    width: 90%;
-    margin: 15px 0;
-  }
-
-  .projects .box .project-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-  }
-
-  .projects .box button {
-    width: 100%;
-    font-size: 1rem;
-  }
-}
-
 .cv-btn {
     background-color: #b74b4b;
     color: white;
@@ -893,5 +870,55 @@ html {
   .cv-btn:hover {
     background-color: #8a3636;
     box-shadow: 0 0 10px #b74b4b;
+  }
+  
+  @media (max-width: 768px) {
+    .projects .title span {
+      margin-top: 40px;
+      font-size: 24px;
+    }
+  
+    .projects .title {
+      margin-bottom: 20px;
+    }
+  
+    .projects .box {
+      margin-top: 20px;
+    }
+  }
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .about-text {
+    flex: 1 1 600px;
+    max-width: 700px;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .about-img {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  .about-text {
+    color: white; /* Or use a light color like #f0f0f0 */
+    font-size: 1rem;
+    line-height: 1.6;
   }
   
